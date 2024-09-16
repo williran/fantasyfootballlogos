@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Football Logos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            font-size: 2em;
+        }
+
+        .content {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .disclaimer {
+            background-color: #ffcc00;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .upload-section {
+            margin: 20px 0;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image-gallery img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border: 2px solid #ccc;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Fantasy Football Logos
+</header>
+
+<div class="content">
+    <p>Welcome to the Fantasy Football Logos website! This is a site where you can upload images and use them for your fantasy football team logos.</p>
+    
+    <div class="disclaimer">
+        Please note:
+        <ul>
+            <li>Logos must not be copyright protected, contain pornography, or include any other illegal images.</li>
+            <li>Any image uploaded will be publicly available and may be used by any other website visitor royalty-free.</li>
+            <li>Only square images are allowed, and all images will be resized to 200x200 pixels (under 500kb).</li>
+        </ul>
+    </div>
+    
+    <div class="upload-section">
+        <!-- This is where you can add future functionality for file upload -->
+        <p><strong>Image Upload Section</strong></p>
+        <p>This area will contain an image upload form in the future.</p>
+        <p>(You can display uploaded images below once uploaded.)</p>
+    </div>
+
+    <div class="image-gallery">
+        <!-- This is a placeholder for where uploaded images will appear -->
+        <img src="https://via.placeholder.com/200" alt="Uploaded logo 1">
+        <img src="https://via.placeholder.com/200" alt="Uploaded logo 2">
+        <img src="https://via.placeholder.com/200" alt="Uploaded logo 3">
+    </div>
+</div>
+
+<footer>
+    <p>Powered by Fantasy Football Logos | <a href="mailto:support@fantasyfootballdomain.com">Contact Us</a></p>
+</footer>
+
+</body>
+</html>
